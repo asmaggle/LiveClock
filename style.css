@@ -1,0 +1,27 @@
+body,
+    html {
+        height: 100%;
+    }
+
+.clock {
+        margin-top: 200px;
+        margin-left: 18%;
+        height: 150px;
+        width: 800px;
+        position: absolute;
+        background-color: #e9eb9e;
+        color: maroon;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 60px;
+        padding-top: 0px;
+    }
+img{
+        object-fit: cover;
+        width: 100vw;
+        height: 100vh;
+        position: fixed;
+        top:0;
+        left: 0;
+    }
